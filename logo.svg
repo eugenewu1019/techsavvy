@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="_圖層_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" viewBox="0 0 512 512">
+  <!-- Generator: Adobe Illustrator 30.0.0, SVG Export Plug-In . SVG Version: 2.1.1 Build 123)  -->
+  <defs>
+    <style>
+      .st0 {
+        fill: url(#_未命名漸層);
+      }
+
+      .st1 {
+        fill: #fff;
+      }
+    </style>
+    <linearGradient id="_未命名漸層" data-name="未命名漸層" x1="190.84" y1="320.79" x2="73.07" y2="438.55" gradientTransform="translate(0 514) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#5b87e2"/>
+      <stop offset="1" stop-color="#37cbc2"/>
+    </linearGradient>
+  </defs>
+  <polygon class="st1" points="276.03 138.24 372.2 138.24 372.2 240.94 451 240.94 451 60.77 276.03 60.77 276.03 138.24"/>
+  <polygon class="st0" points="235.97 138.24 139.8 138.24 139.8 240.94 61 240.94 61 60.77 235.97 60.77 235.97 138.24"/>
+  <polygon class="st1" points="276.03 371.83 372.2 371.83 372.2 269.12 451 269.12 451 449.29 276.03 449.29 276.03 371.83"/>
+  <polygon class="st1" points="235.97 371.83 139.8 371.83 139.8 269.12 61 269.12 61 449.29 235.97 449.29 235.97 371.83"/>
+</svg>

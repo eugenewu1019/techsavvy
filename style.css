@@ -1,0 +1,304 @@
+/* Custom Animations */
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes float {
+
+    0%,
+    100% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-10px);
+    }
+}
+
+@keyframes shimmer {
+    0% {
+        transform: translateX(-100%);
+    }
+
+    100% {
+        transform: translateX(100%);
+    }
+}
+
+@keyframes scroll {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(-50%);
+    }
+}
+
+/* Custom Utility Classes */
+.animate-fade-in-up {
+    animation: fadeInUp 0.8s ease-out forwards;
+}
+
+.animate-float-slow {
+    animation: float 6s ease-in-out infinite;
+}
+
+.animate-float-delayed {
+    animation: float 6s ease-in-out infinite 1s;
+}
+
+.animate-shimmer {
+    animation: shimmer 2s linear infinite;
+}
+
+.animate-scroll {
+    animation: scroll 30s linear infinite;
+}
+
+.glass-morphism {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(30px);
+    -webkit-backdrop-filter: blur(30px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.15);
+}
+
+.dark .glass-morphism {
+    background: rgba(15, 23, 42, 0.6);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.3);
+}
+
+.text-gradient {
+    background: linear-gradient(135deg, #6366f1 0%, #a855f7 50%, #2dd4bf 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.mask-image-gradient {
+    mask-image: linear-gradient(to bottom, black 50%, transparent 100%);
+    -webkit-mask-image: linear-gradient(to bottom, black 50%, transparent 100%);
+}
+
+.bg-grid-pattern {
+    background-image: radial-gradient(#6366f1 0.5px, transparent 0.5px);
+    background-size: 24px 24px;
+}
+
+.dark .bg-grid-pattern-dark {
+    background-image: radial-gradient(#312e81 0.5px, transparent 0.5px);
+    background-size: 24px 24px;
+}
+
+/* Scroll Reveal */
+.scroll-reveal {
+    transition: all 1s cubic-bezier(0.17, 0.55, 0.55, 1);
+}
+
+.reveal-hidden {
+    opacity: 0;
+    transform: translateY(30px);
+}
+
+.reveal-visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* Perspectives */
+.perspective-1000 {
+    perspective: 1000px;
+}
+
+.transform-style-3d {
+    transform-style: preserve-3d;
+}
+
+.translate-z-10 {
+    transform: translateZ(10px);
+}
+
+/* Custom Shapes and Effects */
+.progress-glow {
+    box-shadow: 0 0 15px rgba(45, 212, 191, 0.5);
+}
+
+/* Navigation Overrides */
+.navbar-link::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 0;
+    height: 2px;
+    background: #2dd4bf;
+    transition: all 0.3s ease;
+    border-radius: 9999px;
+    transform: translateX(-50%);
+}
+
+.navbar-link:hover::after {
+    width: 100%;
+}
+
+/* Scroll smooth is handled in HTML class */
+
+/* Custom fonts handled by @import in head */
+body {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+/* Fix for dark mode transition */
+.transition-colors {
+    transition-property: background-color, border-color, color, fill, stroke;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 500ms;
+}
+
+/* About Section Enhancements */
+.about-stats-glass {
+    background: rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    box-shadow: 0 10px 40px -10px rgba(0, 0, 0, 0.1);
+}
+
+.dark .about-stats-glass {
+    background: rgba(15, 23, 42, 0.7);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0 10px 40px -10px rgba(0, 0, 0, 0.3);
+}
+
+.tech-pattern-overlay {
+    background-image:
+        linear-gradient(rgba(99, 102, 241, 0.1) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(99, 102, 241, 0.1) 1px, transparent 1px);
+    background-size: 40px 40px;
+    mask-image: radial-gradient(circle at center, black 40%, transparent 100%);
+    -webkit-mask-image: radial-gradient(circle at center, black 40%, transparent 100%);
+}
+
+.image-frame-offset {
+    transform: translate(20px, 20px);
+    z-index: -1;
+    border: 2px solid rgba(99, 102, 241, 0.3);
+}
+
+/* Services Spotlight & Bento Grid */
+
+.spotlight-card {
+    position: relative;
+    background: rgba(255, 255, 255, 0.5);
+    border: 1px solid rgba(226, 232, 240, 0.6);
+    /* slate-200ish */
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.dark .spotlight-card {
+    background: rgba(30, 41, 59, 0.4);
+    /* slate-800ish */
+    border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+/* The glow effect */
+.spotlight-card::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: radial-gradient(600px circle at var(--mouse-x) var(--mouse-y),
+            rgba(99, 102, 241, 0.15),
+            /* Indigo glow */
+            transparent 40%);
+    opacity: 0;
+    transition: opacity 0.5s ease;
+    pointer-events: none;
+    z-index: 1;
+}
+
+.spotlight-group:hover .spotlight-card::before {
+    opacity: 1;
+}
+
+/* Hover lift */
+.spotlight-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 30px -10px rgba(0, 0, 0, 0.1);
+}
+
+.dark .spotlight-card:hover {
+    box-shadow: 0 10px 30px -10px rgba(0, 0, 0, 0.5);
+}
+
+/* Icon & Content styling adjustments */
+.service-icon-wrapper {
+    position: relative;
+    z-index: 10;
+}
+
+/* Portfolio Section Enhancements */
+.portfolio-tilt {
+    transform-style: preserve-3d;
+    transition: transform 0.3s ease-out;
+    will-change: transform;
+}
+
+.portfolio-tilt:hover {
+    transform: perspective(1000px);
+}
+
+/* Animated gradient border effect */
+.portfolio-card {
+    position: relative;
+}
+
+.portfolio-card::before {
+    content: "";
+    position: absolute;
+    inset: -2px;
+    border-radius: 2rem;
+    padding: 2px;
+    background: linear-gradient(45deg,
+            rgba(99, 102, 241, 0.3),
+            rgba(168, 85, 247, 0.3),
+            rgba(45, 212, 191, 0.3));
+    -webkit-mask:
+        linear-gradient(#fff 0 0) content-box,
+        linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+    mask-composite: exclude;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
+
+.portfolio-card:hover::before {
+    opacity: 1;
+}
+
+/* Staggered reveal animation */
+@keyframes float-up {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
