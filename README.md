@@ -44,11 +44,7 @@
 
 **Techsavvy** is a high-end, futuristic corporate website template designed for modern IT consultancy firms. It focuses on conveying trust, innovation, and scalability through a polished UI/UX.
 
-**Techsavvy** 是一個為現代 IT 諮詢公司量身打造的高端企業形象網站。專案設計核心在於透過極致的 UI/UX 細節，傳遞出信任感、創新力與規模化能力。
-
 The site creates an immersive experience using "Micro-glow" effects, glassmorphism, and smooth scroll animations, ensuring the user feels the premium quality of the brand immediately.
-
-網站採用了「微光效應 (Micro-glow)」、「毛玻璃質感 (Glassmorphism)」以及流暢的滾動動畫，確保用戶在進入網站的第一時間就能感受到品牌的高端質感。
 
 ### Why This Project?
 
@@ -66,7 +62,6 @@ The site creates an immersive experience using "Micro-glow" effects, glassmorphi
 - Complete i18n implementation with instant language switching
 - Support for English / Traditional Chinese / Japanese
 - LocalStorage persistence for user preference
-- 完整的多語系支援（英文 / 繁體中文 / 日文），支援即時切換
 
 ### 🎨 Premium UI/UX Design
 - **Glassmorphism Navbar**: Dynamic transparency and blur effects on scroll
@@ -78,20 +73,17 @@ The site creates an immersive experience using "Micro-glow" effects, glassmorphi
 - Fully responsive light/dark theme switching
 - System preference detection
 - Smooth transitions between themes
-- 完美支援深色/淺色模式切換，並自動偵測系統偏好
 
 ### 📱 Fully Responsive
 - Mobile-first approach ensuring a flawless experience on all devices
 - Optimized for desktops, tablets, and smartphones
 - Touch-friendly interactions
-- 行動優先設計，確保從桌機到手機都能擁有完美的瀏覽體驗
 
 ### ⚙️ CI/CD Pipeline
 - Automated HTML5 validation on every commit
 - CSS validation with standard compliance
 - Link checker to ensure no broken links
 - Automatic deployment to GitHub Pages
-- 每次提交自動進行 HTML/CSS 驗證和連結檢查
 
 ---
 
@@ -134,8 +126,6 @@ The site creates an immersive experience using "Micro-glow" effects, glassmorphi
 2. **Open `index.html`**
    
    Simply open the file in your browser or use a live server.
-   
-   直接在瀏覽器中開啟 `index.html`，或使用 Live Server 擴充套件。
 
 ### Development
 
@@ -268,8 +258,6 @@ Found a bug or have a feature idea?
 ## 📝 License
 
 Distributed under the MIT License. See [`LICENSE`](LICENSE) for more information.
-
-本專案採用 MIT 授權條款 - 詳見 [LICENSE](LICENSE) 檔案。
 
 ---
 
