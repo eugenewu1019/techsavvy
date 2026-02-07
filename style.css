@@ -202,18 +202,16 @@ body {
     position: relative;
     background: rgba(255, 255, 255, 0.5);
     border: 1px solid rgba(226, 232, 240, 0.6);
-    /* slate-200ish */
     overflow: hidden;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .dark .spotlight-card {
     background: rgba(30, 41, 59, 0.4);
-    /* slate-800ish */
     border: 1px solid rgba(255, 255, 255, 0.05);
 }
 
-/* The glow effect */
+/* Indigo glow effect on hover */
 .spotlight-card::before {
     content: "";
     position: absolute;
@@ -221,10 +219,7 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
-    background: radial-gradient(600px circle at var(--mouse-x) var(--mouse-y),
-            rgba(99, 102, 241, 0.15),
-            /* Indigo glow */
-            transparent 40%);
+    background: radial-gradient(600px circle at var(--mouse-x) var(--mouse-y), rgba(99, 102, 241, 0.15), transparent 40%);
     opacity: 0;
     transition: opacity 0.5s ease;
     pointer-events: none;
@@ -273,13 +268,9 @@ body {
     inset: -2px;
     border-radius: 2rem;
     padding: 2px;
-    background: linear-gradient(45deg,
-            rgba(99, 102, 241, 0.3),
-            rgba(168, 85, 247, 0.3),
-            rgba(45, 212, 191, 0.3));
-    -webkit-mask:
-        linear-gradient(#fff 0 0) content-box,
-        linear-gradient(#fff 0 0);
+    background: linear-gradient(45deg, rgba(99, 102, 241, 0.3), rgba(168, 85, 247, 0.3), rgba(45, 212, 191, 0.3));
+    -webkit-mask-image: linear-gradient(#fff 0 0), linear-gradient(#fff 0 0);
+    -webkit-mask-clip: content-box, border-box;
     -webkit-mask-composite: xor;
     mask-composite: exclude;
     opacity: 0;
