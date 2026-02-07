@@ -1,15 +1,46 @@
-# Techsavvy | Future Ready IT Consultancy
+<div align="right">
+
+**Language**: [🇺🇸 English](README.md) | [🇹🇼 繁體中文](README.zh-TW.md)
+
+</div>
+
+<div align="center">
+
+# 🚀 Techsavvy | Future Ready IT Consultancy
+
+[![MIT License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+[![Live Demo](https://img.shields.io/badge/demo-online-green.svg)](https://eugenewu1019.github.io/techsavvy/)
+[![CI/CD](https://github.com/eugenewu1019/techsavvy/actions/workflows/quality.yml/badge.svg)](https://github.com/eugenewu1019/techsavvy/actions)
+[![HTML5](https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/HTML)
+[![TailwindCSS](https://img.shields.io/badge/TailwindCSS-38B2AC?logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
+
+**Design that moves the needle. Technology that scales.**
+
+[Live Demo](https://eugenewu1019.github.io/techsavvy/) · [Report Bug](https://github.com/eugenewu1019/techsavvy/issues) · [Request Feature](https://github.com/eugenewu1019/techsavvy/issues)
 
 ![Project Banner](IMG/hero-future.jpg)
 
-> **[Live Demo](https://eugenewu1019.github.io/techsavvy/)**  
-> *Design that moves the needle. Technology that scales.*
+</div>
 
-[![CI/CD Pipeline](https://github.com/eugenewu1019/techsavvy/actions/workflows/quality.yml/badge.svg)](https://github.com/eugenewu1019/techsavvy/actions/workflows/quality.yml)
-[![GitHub Pages](https://github.com/eugenewu1019/techsavvy/actions/workflows/deploy.yml/badge.svg)](https://github.com/eugenewu1019/techsavvy/actions/workflows/deploy.yml)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+---
 
-## 📖 Introduction (專案簡介)
+## 📚 Table of Contents
+
+- [About The Project](#-about-the-project)
+- [Key Features](#-key-features)
+- [Tech Stack](#️-tech-stack)
+- [Getting Started](#-getting-started)
+- [Project Structure](#-project-structure)
+- [Deployment](#-deployment)
+- [Contributing](#-contributing)
+- [License](#-license)
+- [Contact](#-contact)
+- [Acknowledgments](#-acknowledgments)
+
+---
+
+## 🎯 About The Project
 
 **Techsavvy** is a high-end, futuristic corporate website template designed for modern IT consultancy firms. It focuses on conveying trust, innovation, and scalability through a polished UI/UX.
 
@@ -19,76 +50,99 @@ The site creates an immersive experience using "Micro-glow" effects, glassmorphi
 
 網站採用了「微光效應 (Micro-glow)」、「毛玻璃質感 (Glassmorphism)」以及流暢的滾動動畫，確保用戶在進入網站的第一時間就能感受到品牌的高端質感。
 
-## ✨ Key Features (核心特色)
+### Why This Project?
 
--   **🌍 Bilingual Support (中英日三語系)**:
-    -   Complete i18n implementation with instant language switching (English / Traditional Chinese / Japanese).
-    -   完整的多語系支援（英文 / 繁體中文 / 日文），支援即時切換。
+- 🎨 **Premium Design**: Glassmorphism, spotlight effects, and micro-interactions
+- 🌍 **Global Ready**: Full i18n support (English / Chinese / Japanese)
+- ⚡ **Performance**: Zero build process, CDN-based Tailwind CSS
+- 🔍 **SEO Optimized**: Clean HTML structure and semantic markup
+- 🤖 **CI/CD Pipeline**: Automated quality checks and deployment
 
--   **🎨 Premium UI/UX Design (高端視覺設計)**:
-    -   **Glassmorphism Navbar**: Dynamic transparency and blur effects on scroll.
-    -   **Spotlight Cards**: Interactive 3D tilt and mouse-following lighting effects on service cards.
-    -   **Smooth Animations**: Custom `ScrollReveal` implementation for engaging content entry.
-    -   **Micro-interactions**: Subtle hover states, magnetic buttons, and parallax effects.
+---
 
--   **🌓 Dark Mode Ready (深色模式)**:
-    -   Fully responsive light/dark theme switching with system preference detection.
-    -   完美支援深色/淺色模式切換，並自動偵測系統偏好。
+## ✨ Key Features
 
--   **📱 Fully Responsive (全裝置響應)**:
-    -   Mobile-first approach ensuring a flawless experience on all devices, from desktops to smartphones.
-    -   行動優先設計，確保從桌機到手機都能擁有完美的瀏覽體驗。
+### 🌍 Trilingual Support
+- Complete i18n implementation with instant language switching
+- Support for English / Traditional Chinese / Japanese
+- LocalStorage persistence for user preference
+- 完整的多語系支援（英文 / 繁體中文 / 日文），支援即時切換
 
--   **⚙️ CI/CD Pipeline (持續整合/部署)**:
-    -   Automated HTML/CSS validation on every commit.
-    -   Link checker to ensure no broken links.
-    -   Automatic deployment to GitHub Pages.
-    -   每次提交自動進行 HTML/CSS 驗證和連結檢查。
+### 🎨 Premium UI/UX Design
+- **Glassmorphism Navbar**: Dynamic transparency and blur effects on scroll
+- **Spotlight Cards**: Interactive 3D tilt and mouse-following lighting effects on service cards
+- **Smooth Animations**: Custom ScrollReveal implementation for engaging content entry
+- **Micro-interactions**: Subtle hover states, magnetic buttons, and parallax effects
 
-## 🛠️ Tech Stack (技術棧)
+### 🌓 Dark Mode
+- Fully responsive light/dark theme switching
+- System preference detection
+- Smooth transitions between themes
+- 完美支援深色/淺色模式切換，並自動偵測系統偏好
 
-This project is built with a focus on performance and simplicity, utilizing modern web standards without heavy build steps.
+### 📱 Fully Responsive
+- Mobile-first approach ensuring a flawless experience on all devices
+- Optimized for desktops, tablets, and smartphones
+- Touch-friendly interactions
+- 行動優先設計，確保從桌機到手機都能擁有完美的瀏覽體驗
 
-本專案強調效能與簡潔，採用現代 Web 標準開發，無需繁重的建置流程。
+### ⚙️ CI/CD Pipeline
+- Automated HTML5 validation on every commit
+- CSS validation with standard compliance
+- Link checker to ensure no broken links
+- Automatic deployment to GitHub Pages
+- 每次提交自動進行 HTML/CSS 驗證和連結檢查
 
--   **Core**: HTML5, Vanilla JavaScript (ES6+)
--   **Styling**: [Tailwind CSS](https://tailwindcss.com/) (CDN) - Rapid UI development with utility classes.
--   **Fonts**: 'Outfit' (Headings) & 'Inter' (Body) via Google Fonts.
--   **Icons**: Lucide Icons (SVG).
--   **CI/CD**: GitHub Actions
--   **Hosting**: GitHub Pages
--   **Assets**: High-quality imagery with optimized loading.
+---
 
-## 🚀 Getting Started (如何執行)
+## 🛠️ Tech Stack
 
-Since this project uses the CDN version of Tailwind CSS, no build process is required for development.
+### Core
+- **HTML5** - Semantic markup and modern web standards
+- **Vanilla JavaScript (ES6+)** - No framework dependencies
+- **CSS3** - Custom animations and effects
 
-由於本專案使用 CDN 版的 Tailwind CSS，開發時無需任何建置步驟。
+### Styling & UI
+- [Tailwind CSS](https://tailwindcss.com/) (CDN) - Utility-first CSS framework
+- Custom CSS - Advanced animations and glassmorphism
+- [Google Fonts](https://fonts.google.com/) - Outfit & Inter typography
+- [Lucide Icons](https://lucide.dev/) - Beautiful SVG icons
 
-### Prerequisites (前置需求)
+### DevOps
+- [GitHub Actions](https://github.com/features/actions) - CI/CD automation
+- [GitHub Pages](https://pages.github.com/) - Static site hosting
+- HTML5 Validator - Code quality assurance
+- Link Checker - Broken link detection
+
+---
+
+## 🚀 Getting Started
+
+### Prerequisites
 
 - A modern web browser (Chrome, Firefox, Safari, or Edge)
 - (Optional) A local web server for development
 
-### Installation (安裝步驟)
+### Installation
 
-1.  **Clone the repository**:
-    ```bash
-    git clone https://github.com/eugenewu1019/techsavvy.git
-    cd techsavvy
-    ```
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/eugenewu1019/techsavvy.git
+   cd techsavvy
+   ```
 
-2.  **Open `index.html`**:
-    Simply open the file in your browser or use a live server extension (e.g., Live Server in VS Code) for the best experience.
-    
-    直接在瀏覽器中開啟 `index.html`，或使用 VS Code 的 Live Server 擴充套件以獲得最佳預覽體驗。
+2. **Open `index.html`**
+   
+   Simply open the file in your browser or use a live server.
+   
+   直接在瀏覽器中開啟 `index.html`，或使用 Live Server 擴充套件。
 
-### Development (開發)
+### Development
 
 For development with hot reload:
 
 ```bash
-# Using VS Code Live Server extension
+# Using VS Code Live Server extension (recommended)
 # Or use Python's built-in server:
 python -m http.server 8000
 
@@ -98,7 +152,9 @@ npx http-server
 
 Then navigate to `http://localhost:8000` in your browser.
 
-## 📂 Project Structure (專案結構)
+---
+
+## 📂 Project Structure
 
 ```text
 techsavvy/
@@ -108,7 +164,10 @@ techsavvy/
 │   │   └── deploy.yml        # GitHub Pages deployment
 │   ├── PULL_REQUEST_TEMPLATE.md
 │   └── mlc_config.json       # Link checker config
-├── IMG/                      # Image assets (hero, portfolio, team)
+├── IMG/                      # Image assets
+│   ├── hero-future.jpg
+│   ├── portfolio-*.jpg
+│   └── team-*.jpg
 ├── index.html                # Main HTML structure
 ├── script.js                 # Core logic (i18n, animations, theme)
 ├── style.css                 # Custom animations & overrides
@@ -116,62 +175,136 @@ techsavvy/
 ├── LICENSE                   # MIT License
 ├── CONTRIBUTING.md           # Contribution guidelines
 ├── SECURITY.md               # Security policy
-└── README.md                 # Documentation (this file)
+└── README.md                 # This file
 ```
 
-## 🤝 Contributing (貢獻指南)
+---
 
-Contributions are welcome! Please read our [Contributing Guidelines](CONTRIBUTING.md) before submitting a pull request.
+## 🚀 Deployment
 
-歡迎貢獻！在提交 Pull Request 之前，請先閱讀我們的[貢獻指南](CONTRIBUTING.md)。
+### GitHub Pages (Current Setup)
 
-### Development Workflow
+The project is configured to automatically deploy to GitHub Pages on push to `main`.
 
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'feat: Add amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
+1. **Enable GitHub Pages**
+   - Settings → Pages → Source: GitHub Actions
+
+2. **Push to main branch**
+   ```bash
+   git push origin main
+   ```
+
+3. **GitHub Actions will automatically**:
+   - Run HTML/CSS validation
+   - Check for broken links
+   - Build and deploy to GitHub Pages
+
+### Alternative Deployment Options
+
+<details>
+<summary><b>Vercel</b></summary>
+
+1. Import repository to Vercel
+2. No build settings needed (static site)
+3. Deploy!
+
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/eugenewu1019/techsavvy)
+
+</details>
+
+<details>
+<summary><b>Netlify</b></summary>
+
+1. Connect repository
+2. No build command needed (static site)
+3. Publish directory: `.` (root)
+4. Deploy!
+
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/eugenewu1019/techsavvy)
+
+</details>
+
+---
+
+## 🤝 Contributing
+
+Contributions are what make the open source community amazing! Any contributions you make are **greatly appreciated**.
+
+Please read our [Contributing Guidelines](CONTRIBUTING.md) for details on:
+
+- Code of Conduct
+- Development process
+- How to submit pull requests
+- Coding standards
+- Commit message conventions
+
+### Quick Start for Contributors
+
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'feat: add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-### Code Quality
+### Code Quality Requirements
 
 All pull requests must pass:
-- HTML5 validation
-- CSS validation
-- Link checker tests
+- ✅ HTML5 validation
+- ✅ CSS validation
+- ✅ Link checker tests
 
-## 📄 License (授權)
+---
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+## 🐛 Bug Reports & Feature Requests
+
+Found a bug or have a feature idea?
+
+- **Bug Reports**: [Create an issue](https://github.com/eugenewu1019/techsavvy/issues/new)
+- **Feature Requests**: [Create an issue](https://github.com/eugenewu1019/techsavvy/issues/new)
+- **Questions**: [Start a discussion](https://github.com/eugenewu1019/techsavvy/discussions)
+
+---
+
+## 📝 License
+
+Distributed under the MIT License. See [`LICENSE`](LICENSE) for more information.
 
 本專案採用 MIT 授權條款 - 詳見 [LICENSE](LICENSE) 檔案。
 
-## 🔒 Security (安全性)
+---
 
-If you discover a security vulnerability, please review our [Security Policy](SECURITY.md) for reporting procedures.
+## 📬 Contact
 
-如果發現安全漏洞，請查閱我們的[安全政策](SECURITY.md)以了解回報程序。
+**Eugene Wu** - UI/UX Designer & Frontend Developer
 
-## 👨‍💻 Author (作者)
+- LinkedIn: [@owenwuwork](https://www.linkedin.com/in/owenwuwork)
+- GitHub: [@eugenewu1019](https://github.com/eugenewu1019)
+- Portfolio: [eugenewu1019.github.io/techsavvy](https://eugenewu1019.github.io/techsavvy/)
 
-**Eugene Wu**
--   GitHub: [@eugenewu1019](https://github.com/eugenewu1019)
--   Portfolio: [eugenewu1019.github.io/techsavvy](https://eugenewu1019.github.io/techsavvy/)
+**Project Link**: [https://github.com/eugenewu1019/techsavvy](https://github.com/eugenewu1019/techsavvy)
 
-## 🙏 Acknowledgments (致謝)
+**Live Demo**: [https://eugenewu1019.github.io/techsavvy/](https://eugenewu1019.github.io/techsavvy/)
+
+---
+
+## 🙏 Acknowledgments
+
+Special thanks to:
 
 - [Tailwind CSS](https://tailwindcss.com/) - Utility-first CSS framework
-- [Google Fonts](https://fonts.google.com/) - Web fonts
-- [Unsplash](https://unsplash.com/) - High-quality images
+- [Google Fonts](https://fonts.google.com/) - Web typography
+- [Lucide Icons](https://lucide.dev/) - Beautiful icon set
+- [GitHub Actions](https://github.com/features/actions) - CI/CD automation
+- [Unsplash](https://unsplash.com/) - High-quality imagery
 
 ---
 
 <div align="center">
 
-**[⬆ Back to Top](#techsavvy--future-ready-it-consultancy)**
+**[⬆️ Back to top](#-techsavvy--future-ready-it-consultancy)**
 
-*© 2026 Techsavvy. All Rights Reserved.*
+Made with 🚀 by [Eugene Wu](https://github.com/eugenewu1019)
 
-Made with ❤️ by Eugene Wu
+© 2026 Techsavvy. All Rights Reserved.
 
 </div>
